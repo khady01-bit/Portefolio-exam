@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <style>
+  html{
+    scroll-behavior:smooth;
+  }
+</style>
+</head>
+<body class="bg-gray-950 text-white">
+    
+
+<header class="fixed top-0 w-full bg-gray-900/80 backdrop-blur z-50">
+
+  <nav class="max-w-7xl mx-auto flex justify-between items-center p-6">
+
+    <h1 class="text-2xl font-bold text-cyan-400">
+      Mon Portfolio
+    </h1>
+
+    <ul class="flex gap-8 text-white font-medium">
+      <li><a href="#hero" class="hover:text-cyan-400">Accueil</a></li>
+      <li><a href="#about" class="hover:text-cyan-400">À propos</a></li>
+      <li><a href="#projects" class="hover:text-cyan-400">Projets</a></li>
+      <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+    </ul>
+
+  </nav>
+
+</header>
+
+<section
+  class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-16 px-10 text-white"
+>
+
+  <div>
+    <img
+      src="WhatsApp Image 2026-05-23 at 20.21.52.jpeg"
+      alt="Photo profil"
+      class="w-64 h-64 object-cover rounded-full border-4 border-cyan-400"
+    />
+  </div>
+
+  <div class="max-w-xl">
+
+    <h1 class="text-5xl font-bold mb-4">
+      Salut, je suis
+      <span class="text-cyan-400">
+        Ndeye Khady Seck
+      </span>
+    </h1>
+
+    <p class="text-gray-300 text-lg mb-6">
+      Développeuse Frontend passionnée par la création
+      d’interfaces modernes et responsives.
+    </p>
+
+    <button
+      class="bg-cyan-500 px-6 py-3 rounded-lg hover:bg-cyan-400 transition"
+    >
+      Voir mes projets
+    </button>
+
+  </div>
+
+</section>
+<section id="about" class="bg-gray-900 text-white py-20 px-6">
+  
+  <div class="max-w-4xl mx-auto">
+    
+    <h2 class="text-4xl font-bold text-cyan-400 mb-6">
+      À propos
+    </h2>
+
+    <p class="text-gray-300 leading-8 text-lg">
+      Je suis un développeur frontend passionné par la création
+      d’interfaces modernes, rapides et responsives.
+      J’aime transformer des idées en expériences web élégantes.
+    </p>
+
+  </div>
+
+</section>
+
+<section id="skills" class="bg-gray-950 text-white py-20 px-6">
+
+  <div class="max-w-5xl mx-auto">
+
+    <h2 class="text-4xl font-bold text-cyan-400 mb-10">
+      Compétences
+    </h2>
+
+    <div class="flex flex-wrap gap-4">
+
+      <span class="bg-cyan-500 px-5 py-3 rounded-full font-semibold">
+        HTML
+      </span>
+
+      <span class="bg-cyan-500 px-5 py-3 rounded-full font-semibold">
+        CSS
+      </span>
+
+      <span class="bg-cyan-500 px-5 py-3 rounded-full font-semibold">
+        Tailwind CSS
+      </span>
+
+      <span class="bg-cyan-500 px-5 py-3 rounded-full font-semibold">
+        JavaScript
+      </span>
+
+      <span class="bg-cyan-500 px-5 py-3 rounded-full font-semibold">
+        Git & GitHub
+      </span>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="projects" class="bg-gray-900 text-white py-20 px-6">
+
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-4xl font-bold text-cyan-400 mb-10">
+      Mes Projets
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Projet 1 -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+
+
+        <img 
+          src=""
+          alt="Projet 1"
+          class="w-full"
+        >
+
+        <div class="p-6">
+
+          <h3 class="text-2xl font-bold mb-3">
+            Portfolio Personnel
+          </h3>
+
+          <p class="text-gray-300 mb-4">
+            Portfolio responsive réalisé avec HTML et Tailwind CSS.
+          </p>
+
+          <div class="flex gap-4">
+            <a href="#" class="text-cyan-400 hover:underline">
+              GitHub
+            </a>
+
+            <a href="#" class="text-cyan-400 hover:underline">
+              Démo
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Projet 2 -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+
+        <img 
+          src="https://via.placeholder.com/600x300"
+          alt="Projet 2"
+          class="w-full"
+        >
+
+        <div class="p-6">
+
+          <h3 class="text-2xl font-bold mb-3">
+            Site E-commerce
+          </h3>
+
+          <p class="text-gray-300 mb-4">
+            Interface moderne d’un site e-commerce responsive.
+          </p>
+
+          <div class="flex gap-4">
+            <a href="#" class="text-cyan-400 hover:underline">
+              GitHub
+            </a>
+
+            <a href="#" class="text-cyan-400 hover:underline">
+              Démo
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contact" class="bg-gray-950 text-white py-20 px-6">
+
+  <div class="max-w-4xl mx-auto">
+
+    <h2 class="text-4xl font-bold text-cyan-400 mb-10">
+      Contact
+    </h2>
+
+    <form class="space-y-6">
+
+      <input
+        type="text"
+        placeholder="Votre nom"
+        class="w-full p-4 rounded-lg bg-gray-800 text-white outline-none"
+      >
+
+      <input
+        type="email"
+        placeholder="Votre email"
+        class="w-full p-4 rounded-lg bg-gray-800 text-white outline-none"
+      >
+
+      <textarea
+        placeholder="Votre message"
+        rows="5"
+        class="w-full p-4 rounded-lg bg-gray-800 text-white outline-none"
+      ></textarea>
+
+      <button
+        class="bg-cyan-500 hover:bg-cyan-400 transition px-8 py-4 rounded-lg font-semibold"
+      >
+        Envoyer
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+<footer class="bg-black text-gray-400 text-center py-6">
+
+  <p>
+    © 2026 Mon Portfolio — Tous droits réservés
+  </p>
+  <div class="flex justify-center gap-6 text-2xl">
+
+  <a href="#" class="hover:text-cyan-400">
+    GitHub
+  </a>
+
+  <a href="#" class="hover:text-cyan-400">
+    LinkedIn
+  </a>
+
+</div>
+
+</footer>
+</body>
+</html>
